@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114, 88, 101, 0.881);;
+    display: flex;
+}
+#part1
+{
+    height: 100%;
+    width: 26%;
+    
+
+}
+#part2
+{
+    height: 100%;
+    width: 67%;
+    background-color: aqua; 
+    background-image: url(ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(114, 88, 101, 0.355);;
+}
+#part3
+{
+    height: 100%;
+    width: 7%;
+}
+#text-div
+{
+    /* height: 300px; */
+    position: absolute;
+    width: 321px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+#text-div>h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 95px;
+    font-weight: 900;
+    line-height: 78px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-div
+{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay2
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(79, 68, 74, 0.199);;
+}
+#vertical-text
+{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -50%;
+    transform-origin:0% 0% ;
+}
+#vertical-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color:white ;
+   
+}
